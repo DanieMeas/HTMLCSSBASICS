@@ -18,6 +18,7 @@ body{
   padding: 60px 100px;
 }
 
+/*Left column styles */
 .navigation-wrapper > .left-column {
   display: flex;
   align-items: center;
@@ -49,9 +50,6 @@ body{
 
 }
 
-.navigation-wrapper > .right-column > .address-wrapper {
-  font-family: 'Ubuntu Condensed', sans-serif;
-
   }
 
   .navigation-wrapper > .center-column {
@@ -80,6 +78,12 @@ body{
 
 }
 
+.links-wrapper > .nav-link{
+  width: 70px;
+  text-align: center;
+}
+
+
 .links-wrapper > .nav-link a {
   font-family: "Ubuntu Condensed", sans-serif;
   color: #cbcbcb;
@@ -93,4 +97,9 @@ body{
   letter-spacing: 2px;
 }
 
+/* Right Column Styles*/
 
+.navigation-wrapper > .right-column > .address-wrapper {
+  font-family: 'Ubuntu Condensed', sans-serif;
+ display: flex;
+ align-items: center;
