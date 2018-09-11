@@ -1,6 +1,18 @@
 /*Common Styles*/
-body{
+
+body {
   margin: 0px;
   font-family: 'Roboto', sans-serif;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+
+  }
+
+.hero-section > .top-heading {
+  background-color: #11122b;
+  color: #cbcbcb;
+  width: 290px;
+  border-radius: 2px;
 }
