@@ -1,7 +1,19 @@
 .contact-grid-wrapper {
 	width: 1000px;
 	display: grid;
-	grid-template-columns: 1f 3f;
+	grid-template-columns: 1fr 3fr;
 	grid-gap: 100px;
 
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+	font-family: "Unbuntu Condensed", sans-serif;
+	font-weight: 900;
+	display: flex;
+	justify-content: space-between;
 }
